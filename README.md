@@ -31,7 +31,7 @@ Some OLEDs have their pins arranged into two rows, meaning experimenting with a 
 
 If you have dupont wires at hand, then you can use these to connect to a breadboard.
 
-Alternatively, I built a small adapter using a prototyping board, some wire and some female pin headers, ensuring there were no loose connections that could be caused by dupont connectors.
+Alternatively, I built a small adapter using a prototyping board, some wire and some female pin headers.
 
 ## The Result
 If everything works correctly, you should see "Hello from U8x8!" displayed.

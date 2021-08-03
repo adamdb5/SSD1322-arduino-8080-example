@@ -30,13 +30,12 @@ U8X8_SSD1322_NHD_256X64_8080 u8x8(2, 3, 4, 5, 6, 7, 8, 9, 10, 13, 11, 12);
 void setup(void) {
   u8x8.begin();                          // Init display
   u8x8.setFont(u8x8_font_courB24_3x4_f); // Set font (big)
+}
 
+void loop(void) {   
   u8x8.print("Hello from");              // Print first line
   u8x8.setCursor(0, 4);                  // Move to 4th line
   u8x8.print("U8x8!");                   // Print second line
-}
-
-void loop(void) {
-  delay(1000);                           // Do nothing
-                                         // (nothing to update)
+  delay(1000);                           // Wait 1 second
+  u8x8.clear();                          // Clear the screen
 }
