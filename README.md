@@ -33,8 +33,13 @@ If you have dupont wires at hand, then you can use these to connect to a breadbo
 
 Alternatively, I built a small adapter using a prototyping board, some wire and some female pin headers.
 
+![SSD1322 Adapter Side](https://adambruce.net/images/ssd1322/ssd1322-adapter-side.jpg)
+![SSD1322 Adapter Top](https://adambruce.net/images/ssd1322/ssd1322-adapter-top.jpg)
+
 ## The Result
-If everything works correctly, you should see "Hello from U8x8!" displayed.
+After connecting the display, compiling and flashing the Arduino, you should see "Hello from U8x8!" displayed.
+
+![SSD1322 Display](https://adambruce.net/images/ssd1322/ssd1322-display.jpg)
 
 ## Next Steps
 [SSD1322 Documentation](https://www.newhavendisplay.com/app_notes/SSD1322.pdf)
